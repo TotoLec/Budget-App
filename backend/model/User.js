@@ -20,8 +20,11 @@ const userSchema = new mongoose.Schema({
     },
     date: {
         type: Date,
-        default: Date.now
-        
+        default: Date.now   
+    },
+    wallet: {
+        type: Number,
+        default: 0
     }
     
 });
